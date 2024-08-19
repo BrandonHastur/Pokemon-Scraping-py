@@ -8,16 +8,33 @@ url = "https://pokemondb.net/pokedex/game/firered-leafgreen"
 result = requests.get(url).text
 
 doc = BeautifulSoup(result,"html.parser")
-infocards = doc.find(class_ = "infocard-list")
+# infocard_list = doc.find(class_ = "infocard-list")
 
+# imgs = infocard_list.find_all("img")
+# for img in imgs:
+#     img_src = img["src"] 
+#     print(img_src)
 
+# numberslgdata = infocard_list.find_all(class_ = "infocard-lg-data")
+# for number in numberslgdata:
+#     print(number.small.string)
+#     print()
 
-imgs = infocards.find_all("img")
-for img in imgs:
-    img_src = img["src"] 
-    # print(img_src)
+# names = infocard_list.find_all(class_="ent-name")
+# for name in names:
+#     print(name.string)
+#     print()
 
-numbers = infocards.find_all("small")
-for num in numbers:
-    print(num.contents[0])
+# types = infocard_list.find_all("small")
+# for type_ in types:
+#     print(type_.text)
+#     print()
+
+infocards = doc.find_all(class_ = "infocard")
+for infocard in infocards:
+    num = infocard.small.string
+    name = infocard.find_all(class_="ent-name")
+
+    print(num)
+    print(name)
 
