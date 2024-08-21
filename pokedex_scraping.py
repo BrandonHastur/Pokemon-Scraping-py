@@ -2,39 +2,51 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
-pokedex = {}
-
+#*Adquiriendo archivo de la url
 url = "https://pokemondb.net/pokedex/game/firered-leafgreen"
-result = requests.get(url).text
+web_result = requests.get(url).text
 
-doc = BeautifulSoup(result,"html.parser")
-# infocard_list = doc.find(class_ = "infocard-list")
+#*Convirtiendo a documento y parseando
+doc = BeautifulSoup(web_result,"html.parser")
 
-# imgs = infocard_list.find_all("img")
-# for img in imgs:
-#     img_src = img["src"] 
-#     print(img_src)
+#*Acercandome a los elementos clave
+htmllist = doc.find(class_ = "infocard-list")
+divs = htmllist.find_all("div")
 
-# numberslgdata = infocard_list.find_all(class_ = "infocard-lg-data")
-# for number in numberslgdata:
-#     print(number.small.string)
-#     print()
+#*Estructura de variables
+pokemons = len(divs) #Cantidad de pokemons
 
-# names = infocard_list.find_all(class_="ent-name")
-# for name in names:
-#     print(name.string)
-#     print()
+pokedex = []
 
-# types = infocard_list.find_all("small")
-# for type_ in types:
-#     print(type_.text)
-#     print()
+for div in divs:
 
-infocards = doc.find_all(class_ = "infocard")
-for infocard in infocards:
-    num = infocard.small.string
-    name = infocard.find_all(class_="ent-name")
+    #*Consiguiendo los nombres
+    a_s = div.find_all("a")
+    for a in a_s[1:2]:
+        name = a.string
+        #debug print(a.string)
+        #debug print()
+    #*Consiguiendo los numeros
+    numbers = div.small
+    for number in numbers:
+        num = number
+        #debug print(number)
+        #debug print()
+    #*Consiguiendo los tipos
+    for a in a_s[2:]:
+        types = a.string
+        print(types)
+        #debug print()
+    #*Consiguiendo url de las imagenes
+    imgs = div.img.attrs["src"]
+    #debug print(imgs)
 
-    print(num)
-    print(name)
+    print(num,name,types,imgs)
 
+
+
+
+#! DEBUG 🫠
+print(pokedex)
+# print(len(divs))
+# print(divs)
