@@ -3,8 +3,8 @@ import requests
 import re
 
 #*Adquiriendo archivo de la url
-url1 = "https://pokemondb.net/pokedex/game/firered-leafgreen"
-url = "https://pokemondb.net/pokedex/game/scarlet-violet"
+url = "https://pokemondb.net/pokedex/game/firered-leafgreen"
+urlopc = "https://pokemondb.net/pokedex/game/scarlet-violet"
 web_result = requests.get(url).text
 
 #*nombrar el archivo
@@ -16,6 +16,7 @@ doc = BeautifulSoup(web_result,"html.parser")
 
 #*Acercando a los elementos clave
 htmllists = doc.find_all(class_ = "infocard-list")
+count = 0
 
 for htmllist in htmllists:
     divs = htmllist.find_all("div")
@@ -24,7 +25,7 @@ for htmllist in htmllists:
     pokedex = []
 
     for div in divs:
-        count = 1; #no hace nada
+        count += 1; #no hace nada
 
         #*Consiguiendo los nombres
         a_s = div.find_all("a")
@@ -63,7 +64,26 @@ for htmllist in htmllists:
         #debug print(num,name,types,imgs)
         ++count #no hace nada
 
-        #Consiguiendo su des
+        #*Consiguiendo su descripcion en la pokedex
+        #!PARA ROJO FUEGO Y VERDE HOJA
+            #*Entrnado a las paginas de cada pokemon
+        pokedex_url = f"https://pokemondb.net/pokedex/{name}"
+        poke_result = requests.get(pokedex_url).text
+        pokedoc = BeautifulSoup(poke_result,"html.parser")
+            #*Acercandonos a los datos generales por tabla
+        #debug vital_tables = pokedoc.find_all(class_ = "vitals-table")
+
+            #*Encontrando las descripciones en la pokedex (entries)
+        poke_tables = pokedoc.find_all("tbody")
+        for poke_table in poke_tables:
+            try:
+                entries_table = poke_table.tr.find(class_="cell-med-text").text
+            except:
+                pass
+        print(count)
+        print(entries_table)
+        
+
 
         #*Agregando pokemons (valores) a la pokedex (diccionario)
         pokedex.append({
@@ -72,11 +92,12 @@ for htmllist in htmllists:
             "type": types,
             "img-url": imgs
             })
+        
 
 # Exportar como JSON
-import json
-with open(name_json, "w") as file_json:
-    json.dump(pokedex, file_json, indent=4)
+# import json
+# with open(name_json, "w") as file_json:
+#     json.dump(pokedex, file_json, indent=4)
 
 #! DEBUG 🫠
 # print(pokedex) #*imprimiendo en terminal el JSON
