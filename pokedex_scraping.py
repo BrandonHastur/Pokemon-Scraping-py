@@ -16,16 +16,19 @@ doc = BeautifulSoup(web_result,"html.parser")
 
 #*Acercando a los elementos clave
 htmllists = doc.find_all(class_ = "infocard-list")
-count = 0
+
 
 for htmllist in htmllists:
     divs = htmllist.find_all("div")
 
     #*Estructura de variables
     pokedex = []
+    count = 0
 
     for div in divs:
+        #* Cuenta del progreso
         count += 1; #no hace nada
+        print(f"{count} / {len(divs)}")
 
         #*Consiguiendo los nombres
         a_s = div.find_all("a")
@@ -62,7 +65,6 @@ for htmllist in htmllists:
         imgs = div.img.attrs["src"]
         #debug print(imgs)
         #debug print(num,name,types,imgs)
-        ++count #no hace nada
 
         #*Consiguiendo su descripcion en la pokedex
         #!PARA ROJO FUEGO Y VERDE HOJA
@@ -74,30 +76,30 @@ for htmllist in htmllists:
         #debug vital_tables = pokedoc.find_all(class_ = "vitals-table")
 
             #*Encontrando las descripciones en la pokedex (entries)
-        poke_tables = pokedoc.find_all("tbody")
-        for poke_table in poke_tables:
+        
+        try:
+            description = pokedoc.find(class_ = "igame firered").parent.parent.td.text
+        except:
             try:
-                entries_table = poke_table.tr.find(class_="cell-med-text").text
+                description = pokedoc.find(class_ = "igame firered").next_sibling.text
             except:
                 pass
-        print(count)
-        print(entries_table)
+        # print(count)
+        # print(description)
         
-
-
         #*Agregando pokemons (valores) a la pokedex (diccionario)
         pokedex.append({
             "id": num,
             "name": name,
             "type": types,
-            "img-url": imgs
+            "img-url": imgs,
+            "description" : description
             })
-        
 
-# Exportar como JSON
-# import json
-# with open(name_json, "w") as file_json:
-#     json.dump(pokedex, file_json, indent=4)
+#* Exportar como JSON
+import json
+with open(name_json, "w") as file_json:
+    json.dump(pokedex, file_json, indent=4)
 
 #! DEBUG 🫠
 # print(pokedex) #*imprimiendo en terminal el JSON
