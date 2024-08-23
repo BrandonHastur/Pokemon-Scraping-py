@@ -6,7 +6,8 @@
             "Grass",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/bulbasaur.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/bulbasaur.png",
+        "description": "There is a plant seed on its back right from the day this POK\u00e9MON is born. The seed slowly grows larger."
     },
     {
         "id": "#002",
@@ -15,7 +16,8 @@
             "Grass",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ivysaur.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ivysaur.png",
+        "description": "There is a plant bulb on its back. When it absorbs nutrients, the bulb is said to blossom into a large flower."
     },
     {
         "id": "#003",
@@ -24,19 +26,22 @@
             "Grass",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/venusaur.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/venusaur.png",
+        "description": "A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle."
     },
     {
         "id": "#004",
         "name": "Charmander",
         "type": "Fire",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/charmander.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/charmander.png",
+        "description": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out."
     },
     {
         "id": "#005",
         "name": "Charmeleon",
         "type": "Fire",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/charmeleon.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/charmeleon.png",
+        "description": "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws."
     },
     {
         "id": "#006",
@@ -45,37 +50,43 @@
             "Fire",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/charizard.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/charizard.png",
+        "description": "Its wings can carry this POK\u00e9MON close to an altitude of 4,600 feet. It blows out fire at very high temperatures."
     },
     {
         "id": "#007",
         "name": "Squirtle",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/squirtle.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/squirtle.png",
+        "description": "When it retracts its long neck into its shell, it squirts out water with vigorous force."
     },
     {
         "id": "#008",
         "name": "Wartortle",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wartortle.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wartortle.png",
+        "description": "This POK\u00e9MON is very popular as a pet. Its fur-covered tail is a symbol of its longevity."
     },
     {
         "id": "#009",
         "name": "Blastoise",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/blastoise.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/blastoise.png",
+        "description": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell."
     },
     {
         "id": "#010",
         "name": "Caterpie",
         "type": "Bug",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/caterpie.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/caterpie.png",
+        "description": "It is covered with a green skin. When it grows, it sheds the skin, covers itself with silk, and becomes a cocoon."
     },
     {
         "id": "#011",
         "name": "Metapod",
         "type": "Bug",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/metapod.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/metapod.png",
+        "description": "Even though it is encased in a sturdy shell, the body inside is tender. It can\u2019t withstand a harsh attack."
     },
     {
         "id": "#012",
@@ -84,7 +95,8 @@
             "Bug",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/butterfree.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/butterfree.png",
+        "description": "The wings are protected by rain-repellent dust. As a result, this POK\u00e9MON can fly about even in rain."
     },
     {
         "id": "#013",
@@ -93,7 +105,8 @@
             "Bug",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/weedle.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/weedle.png",
+        "description": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head."
     },
     {
         "id": "#014",
@@ -102,7 +115,8 @@
             "Bug",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kakuna.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kakuna.png",
+        "description": "This POK\u00e9MON is in a temporary stage while making its body. It is almost completely unable to move on its own."
     },
     {
         "id": "#015",
@@ -111,7 +125,8 @@
             "Bug",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/beedrill.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/beedrill.png",
+        "description": "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear."
     },
     {
         "id": "#016",
@@ -120,7 +135,8 @@
             "Normal",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pidgey.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pidgey.png",
+        "description": "Does not like to fight. It hides in tall grass and so on, foraging for food such as small bugs."
     },
     {
         "id": "#017",
@@ -129,7 +145,8 @@
             "Normal",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pidgeotto.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pidgeotto.png",
+        "description": "The claws on its feet are well developed. It can carry prey such as an EXEGGCUTE to its nest over 60 miles away."
     },
     {
         "id": "#018",
@@ -138,19 +155,22 @@
             "Normal",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pidgeot.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pidgeot.png",
+        "description": "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed."
     },
     {
         "id": "#019",
         "name": "Rattata",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rattata.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rattata.png",
+        "description": "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down."
     },
     {
         "id": "#020",
         "name": "Raticate",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/raticate.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/raticate.png",
+        "description": "Its rear feet have three toes each. They are webbed, enabling it to swim across rivers."
     },
     {
         "id": "#021",
@@ -159,7 +179,8 @@
             "Normal",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/spearow.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/spearow.png",
+        "description": "It busily flits around here and there. Even if it is frail, it can be a tough foe that uses MIRROR MOVE."
     },
     {
         "id": "#022",
@@ -168,55 +189,64 @@
             "Normal",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/fearow.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/fearow.png",
+        "description": "Its huge and magnificent wings can keep it aloft in the sky. It can remain flying a whole day without landing."
     },
     {
         "id": "#023",
         "name": "Ekans",
         "type": "Poison",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ekans.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ekans.png",
+        "description": "A very common sight in grassland, etc. It flicks its tongue in and out to sense danger in its surroundings."
     },
     {
         "id": "#024",
         "name": "Arbok",
         "type": "Poison",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/arbok.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/arbok.png",
+        "description": "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern."
     },
     {
         "id": "#025",
         "name": "Pikachu",
         "type": "Electric",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pikachu.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pikachu.png",
+        "description": "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
     },
     {
         "id": "#026",
         "name": "Raichu",
         "type": "Electric",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/raichu.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/raichu.png",
+        "description": "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint."
     },
     {
         "id": "#027",
         "name": "Sandshrew",
         "type": "Ground",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sandshrew.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sandshrew.png",
+        "description": "It burrows and lives underground. If threatened, it curls itself up into a ball for protection."
     },
     {
         "id": "#028",
         "name": "Sandslash",
         "type": "Ground",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sandslash.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sandslash.png",
+        "description": "It is adept at attacking with the spines on its back and its sharp claws while quickly scurrying about."
     },
     {
         "id": "#029",
         "name": "Nidoran\u2640",
         "type": "Poison",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidoran-f.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidoran-f.png",
+        "description": "It is adept at attacking with the spines on its back and its sharp claws while quickly scurrying about."
     },
     {
         "id": "#030",
         "name": "Nidorina",
         "type": "Poison",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidorina.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidorina.png",
+        "description": "The female has a gentle temperament. It emits ultrasonic cries that have the power to befuddle foes."
     },
     {
         "id": "#031",
@@ -225,19 +255,22 @@
             "Poison",
             "Ground"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidoqueen.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidoqueen.png",
+        "description": "The body is covered by stiff, needle-like scales. If it becomes excited, the needles bristle outwards."
     },
     {
         "id": "#032",
         "name": "Nidoran\u2642",
         "type": "Poison",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidoran-m.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidoran-m.png",
+        "description": "The body is covered by stiff, needle-like scales. If it becomes excited, the needles bristle outwards."
     },
     {
         "id": "#033",
         "name": "Nidorino",
         "type": "Poison",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidorino.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidorino.png",
+        "description": "It is easily angered. By swinging its well-developed horn wildly, it can even punch through diamond."
     },
     {
         "id": "#034",
@@ -246,43 +279,50 @@
             "Poison",
             "Ground"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidoking.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nidoking.png",
+        "description": "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn as it contains venom."
     },
     {
         "id": "#035",
         "name": "Clefairy",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/clefairy.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/clefairy.png",
+        "description": "Its adorable appearance makes it popular as a pet. However, it is rare and difficult to find."
     },
     {
         "id": "#036",
         "name": "Clefable",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/clefable.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/clefable.png",
+        "description": "It has an acute sense of hearing. It can easily hear a pin being dropped nearly 1,100 yards away."
     },
     {
         "id": "#037",
         "name": "Vulpix",
         "type": "Fire",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vulpix.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vulpix.png",
+        "description": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
     },
     {
         "id": "#038",
         "name": "Ninetales",
         "type": "Fire",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ninetales.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ninetales.png",
+        "description": "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years."
     },
     {
         "id": "#039",
         "name": "Jigglypuff",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/jigglypuff.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/jigglypuff.png",
+        "description": "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody."
     },
     {
         "id": "#040",
         "name": "Wigglytuff",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wigglytuff.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wigglytuff.png",
+        "description": "Its fur is extremely fine, dense, and supple. The exquisitely pleasant fur conveys an image of luxury."
     },
     {
         "id": "#041",
@@ -291,7 +331,8 @@
             "Poison",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/zubat.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/zubat.png",
+        "description": "It has no eyes. Instead, it relies on its ultrasonic cries for echo location to flit about in darkness."
     },
     {
         "id": "#042",
@@ -300,7 +341,8 @@
             "Poison",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golbat.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golbat.png",
+        "description": "It clamps down on its prey with needle-sharp fangs and drains over 10 ounces of blood in one gulp."
     },
     {
         "id": "#043",
@@ -309,7 +351,8 @@
             "Grass",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/oddish.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/oddish.png",
+        "description": "Its scientific name is \u201cOddium Wanderus.\u201d At night, it is said to walk nearly 1,000 feet on its two roots."
     },
     {
         "id": "#044",
@@ -318,7 +361,8 @@
             "Grass",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gloom.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gloom.png",
+        "description": "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles."
     },
     {
         "id": "#045",
@@ -327,7 +371,8 @@
             "Grass",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vileplume.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vileplume.png",
+        "description": "Its petals are the largest in the world. It fiendishly scatters allergy-causing pollen from its petals."
     },
     {
         "id": "#046",
@@ -336,7 +381,8 @@
             "Bug",
             "Grass"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/paras.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/paras.png",
+        "description": "Growing out of the bug\u2019s back are mushrooms called tochukaso. The mushrooms grow with the bug host."
     },
     {
         "id": "#047",
@@ -345,7 +391,8 @@
             "Bug",
             "Grass"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/parasect.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/parasect.png",
+        "description": "It scatters toxic spores from the mushroom cap. In China, the spores are used as herbal medicine."
     },
     {
         "id": "#048",
@@ -354,7 +401,8 @@
             "Bug",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/venonat.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/venonat.png",
+        "description": "Its eyes act as radar, enabling it to be active in darkness. The eyes can also shoot powerful beams."
     },
     {
         "id": "#049",
@@ -363,79 +411,92 @@
             "Bug",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/venomoth.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/venomoth.png",
+        "description": "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust."
     },
     {
         "id": "#050",
         "name": "Diglett",
         "type": "Ground",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/diglett.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/diglett.png",
+        "description": "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot."
     },
     {
         "id": "#051",
         "name": "Dugtrio",
         "type": "Ground",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dugtrio.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dugtrio.png",
+        "description": "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction."
     },
     {
         "id": "#052",
         "name": "Meowth",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/meowth.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/meowth.png",
+        "description": "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow."
     },
     {
         "id": "#053",
         "name": "Persian",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/persian.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/persian.png",
+        "description": "Has a vicious temperament. Beware if it raises its tail straight up. It is a signal that it is about to pounce and bite."
     },
     {
         "id": "#054",
         "name": "Psyduck",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/psyduck.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/psyduck.png",
+        "description": "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers."
     },
     {
         "id": "#055",
         "name": "Golduck",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golduck.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golduck.png",
+        "description": "The forelegs are webbed, helping to make it an adept swimmer. It can be seen swimming elegantly in lakes, etc."
     },
     {
         "id": "#056",
         "name": "Mankey",
         "type": "Fighting",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mankey.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mankey.png",
+        "description": "Light and agile on its feet, and ferocious in temperament. When angered, it flies into an uncontrollable frenzy."
     },
     {
         "id": "#057",
         "name": "Primeape",
         "type": "Fighting",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/primeape.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/primeape.png",
+        "description": "It is always outrageously furious. If it gives chase, it will tenaciously track the target no matter how far."
     },
     {
         "id": "#058",
         "name": "Growlithe",
         "type": "Fire",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/growlithe.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/growlithe.png",
+        "description": "Very friendly and faithful to people. It will try to repel enemies by barking and biting."
     },
     {
         "id": "#059",
         "name": "Arcanine",
         "type": "Fire",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/arcanine.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/arcanine.png",
+        "description": "A POK\u00e9MON that is described in Chinese legends. It is said to race at an unbelievable speed."
     },
     {
         "id": "#060",
         "name": "Poliwag",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/poliwag.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/poliwag.png",
+        "description": "Its slick black skin is thin and damp. A part of its internal organs can be seen through the skin as a spiral pattern."
     },
     {
         "id": "#061",
         "name": "Poliwhirl",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/poliwhirl.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/poliwhirl.png",
+        "description": "Its two legs are well developed. Even though it can live on the ground, it prefers living in water."
     },
     {
         "id": "#062",
@@ -444,43 +505,50 @@
             "Water",
             "Fighting"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/poliwrath.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/poliwrath.png",
+        "description": "An adept swimmer, it knows the front crawl, butterfly, and more. It is faster than the best human swimmers."
     },
     {
         "id": "#063",
         "name": "Abra",
         "type": "Psychic",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/abra.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/abra.png",
+        "description": "It sleeps for 18 hours a day. It uses a variety of extrasensory powers even while asleep."
     },
     {
         "id": "#064",
         "name": "Kadabra",
         "type": "Psychic",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kadabra.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kadabra.png",
+        "description": "It happened one morning - a boy with extrasensory powers awoke in bed transformed into KADABRA."
     },
     {
         "id": "#065",
         "name": "Alakazam",
         "type": "Psychic",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/alakazam.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/alakazam.png",
+        "description": "It does not like physical attacks very much. Instead, it freely uses extrasensory powers to defeat foes."
     },
     {
         "id": "#066",
         "name": "Machop",
         "type": "Fighting",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machop.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machop.png",
+        "description": "Its whole body is composed of muscles. Even though it\u2019s the size of a human child, it can hurl 100 grown-ups."
     },
     {
         "id": "#067",
         "name": "Machoke",
         "type": "Fighting",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machoke.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machoke.png",
+        "description": "Its formidable body never gets tired. It helps people by doing work such as the moving of heavy goods."
     },
     {
         "id": "#068",
         "name": "Machamp",
         "type": "Fighting",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machamp.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machamp.png",
+        "description": "Its four ruggedly developed arms can launch a flurry of 1,000 punches in just two seconds."
     },
     {
         "id": "#069",
@@ -489,7 +557,8 @@
             "Grass",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/bellsprout.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/bellsprout.png",
+        "description": "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant."
     },
     {
         "id": "#070",
@@ -498,7 +567,8 @@
             "Grass",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/weepinbell.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/weepinbell.png",
+        "description": "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything."
     },
     {
         "id": "#071",
@@ -507,7 +577,8 @@
             "Grass",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/victreebel.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/victreebel.png",
+        "description": "Lures prey into its mouth with a honeylike aroma. The helpless prey is melted with a dissolving fluid."
     },
     {
         "id": "#072",
@@ -516,7 +587,8 @@
             "Water",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tentacool.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tentacool.png",
+        "description": "Its eyes are as transparent as crystals. From them, it shoots mysterious beams of light."
     },
     {
         "id": "#073",
@@ -525,7 +597,8 @@
             "Water",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tentacruel.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tentacruel.png",
+        "description": "It has 80 tentacles that move about freely. They can sting, causing poisoning and sharp, stabbing pain."
     },
     {
         "id": "#074",
@@ -534,7 +607,8 @@
             "Rock",
             "Ground"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/geodude.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/geodude.png",
+        "description": "Its round form makes it easy to pick up. Some people have used them to hurl at each other in a snowball fight."
     },
     {
         "id": "#075",
@@ -543,7 +617,8 @@
             "Rock",
             "Ground"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/graveler.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/graveler.png",
+        "description": "Be careful while hiking on mountain trails. GRAVELER may come rolling down the path without slowing."
     },
     {
         "id": "#076",
@@ -552,19 +627,22 @@
             "Rock",
             "Ground"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golem.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golem.png",
+        "description": "It is enclosed in a hard shell that is as rugged as slabs of rock. It sheds skin once a year to grow larger."
     },
     {
         "id": "#077",
         "name": "Ponyta",
         "type": "Fire",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ponyta.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ponyta.png",
+        "description": "Its body is light, and its legs are incredibly powerful. It can clear Ayers Rock in one leap."
     },
     {
         "id": "#078",
         "name": "Rapidash",
         "type": "Fire",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rapidash.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rapidash.png",
+        "description": "It can gallop at a top speed of 150 miles per hour. It can race as fast as a bullet train while ablaze."
     },
     {
         "id": "#079",
@@ -573,7 +651,8 @@
             "Water",
             "Psychic"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/slowpoke.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/slowpoke.png",
+        "description": "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail."
     },
     {
         "id": "#080",
@@ -582,7 +661,8 @@
             "Water",
             "Psychic"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/slowbro.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/slowbro.png",
+        "description": "When a SLOWPOKE went hunting in the sea, its tail was bitten by a SHELLDER. That made it evolve into SLOWBRO."
     },
     {
         "id": "#081",
@@ -591,7 +671,8 @@
             "Electric",
             "Steel"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magnemite.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magnemite.png",
+        "description": "It moves while constantly hovering. It discharges THUNDER WAVE and so on from the units at its sides."
     },
     {
         "id": "#082",
@@ -600,7 +681,8 @@
             "Electric",
             "Steel"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magneton.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magneton.png",
+        "description": "A linked cluster formed of several MAGNEMITE. It discharges powerful magnetic waves at high voltage."
     },
     {
         "id": "#083",
@@ -609,7 +691,8 @@
             "Normal",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/farfetchd.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/farfetchd.png",
+        "description": "A linked cluster formed of several MAGNEMITE. It discharges powerful magnetic waves at high voltage."
     },
     {
         "id": "#084",
@@ -618,7 +701,8 @@
             "Normal",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/doduo.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/doduo.png",
+        "description": "A two-headed POK\u00e9MON that was discovered as a sudden mutation. It runs at a pace of over 60 miles per hour."
     },
     {
         "id": "#085",
@@ -627,13 +711,15 @@
             "Normal",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dodrio.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dodrio.png",
+        "description": "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger."
     },
     {
         "id": "#086",
         "name": "Seel",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seel.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seel.png",
+        "description": "Covered with light blue fur, its hide is thick and tough. It is active in bitter cold of minus 40 degrees Fahrenheit."
     },
     {
         "id": "#087",
@@ -642,25 +728,29 @@
             "Water",
             "Ice"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dewgong.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dewgong.png",
+        "description": "Its body is covered with a pure white fur. The colder the weather, the more active it becomes."
     },
     {
         "id": "#088",
         "name": "Grimer",
         "type": "Poison",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/grimer.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/grimer.png",
+        "description": "Sludge exposed to X rays from the moon transformed into GRIMER. It loves feeding on filthy things."
     },
     {
         "id": "#089",
         "name": "Muk",
         "type": "Poison",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/muk.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/muk.png",
+        "description": "It is usually undetectable because it blends in with the ground. Touching it can cause terrible poisoning."
     },
     {
         "id": "#090",
         "name": "Shellder",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shellder.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shellder.png",
+        "description": "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender."
     },
     {
         "id": "#091",
@@ -669,7 +759,8 @@
             "Water",
             "Ice"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cloyster.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cloyster.png",
+        "description": "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking."
     },
     {
         "id": "#092",
@@ -678,7 +769,8 @@
             "Ghost",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gastly.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gastly.png",
+        "description": "A being that exists as a thin gas. It can topple an Indian elephant by enveloping the prey in two seconds."
     },
     {
         "id": "#093",
@@ -687,7 +779,8 @@
             "Ghost",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/haunter.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/haunter.png",
+        "description": "If you get the feeling of being watched in darkness when nobody is around, HAUNTER is there."
     },
     {
         "id": "#094",
@@ -696,7 +789,8 @@
             "Ghost",
             "Poison"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gengar.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gengar.png",
+        "description": "It is said to emerge from darkness to steal the lives of those who become lost in mountains."
     },
     {
         "id": "#095",
@@ -705,43 +799,50 @@
             "Rock",
             "Ground"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/onix.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/onix.png",
+        "description": "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour."
     },
     {
         "id": "#096",
         "name": "Drowzee",
         "type": "Psychic",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/drowzee.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/drowzee.png",
+        "description": "A descendent of the legendary animal baku, which is said to eat dreams. It is skilled at hypnotism."
     },
     {
         "id": "#097",
         "name": "Hypno",
         "type": "Psychic",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/hypno.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/hypno.png",
+        "description": "It carries a pendulum-like device. There once was an incident in which it took away a child it hypnotized."
     },
     {
         "id": "#098",
         "name": "Krabby",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/krabby.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/krabby.png",
+        "description": "It can be found near the sea. The large pincers grow back if they are torn out of their sockets."
     },
     {
         "id": "#099",
         "name": "Kingler",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kingler.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kingler.png",
+        "description": "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move."
     },
     {
         "id": "#100",
         "name": "Voltorb",
         "type": "Electric",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/voltorb.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/voltorb.png",
+        "description": "A life-form whose identity is unknown. It is said to SCREECH or suddenly SELFDESTRUCT."
     },
     {
         "id": "#101",
         "name": "Electrode",
         "type": "Electric",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/electrode.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/electrode.png",
+        "description": "It explodes in response to even minor stimuli. It is feared, with the nickname of \u201cThe Bomb Ball.\u201d"
     },
     {
         "id": "#102",
@@ -750,7 +851,8 @@
             "Grass",
             "Psychic"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/exeggcute.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/exeggcute.png",
+        "description": "Even though it appears to be eggs of some sort, it was discovered to be a life-form more like plant seeds."
     },
     {
         "id": "#103",
@@ -759,49 +861,57 @@
             "Grass",
             "Psychic"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/exeggutor.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/exeggutor.png",
+        "description": "It is called \u201cThe Walking Tropical Rainforest.\u201d Each of the nuts has a face and a will of its own."
     },
     {
         "id": "#104",
         "name": "Cubone",
         "type": "Ground",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cubone.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cubone.png",
+        "description": "It wears the skull of its dead mother on its head. When it becomes lonesome, it is said to cry loudly."
     },
     {
         "id": "#105",
         "name": "Marowak",
         "type": "Ground",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/marowak.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/marowak.png",
+        "description": "It is small and was originally very weak. Its temperament turned ferocious when it began using bones."
     },
     {
         "id": "#106",
         "name": "Hitmonlee",
         "type": "Fighting",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/hitmonlee.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/hitmonlee.png",
+        "description": "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick."
     },
     {
         "id": "#107",
         "name": "Hitmonchan",
         "type": "Fighting",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/hitmonchan.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/hitmonchan.png",
+        "description": "The spirit of a pro boxer has infused this POK\u00e9MON. It throws punches that are faster than a bullet train."
     },
     {
         "id": "#108",
         "name": "Lickitung",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lickitung.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lickitung.png",
+        "description": "Its tongue is twice the length of its body. It can be moved like an arm for grabbing food and attacking."
     },
     {
         "id": "#109",
         "name": "Koffing",
         "type": "Poison",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/koffing.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/koffing.png",
+        "description": "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby."
     },
     {
         "id": "#110",
         "name": "Weezing",
         "type": "Poison",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/weezing.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/weezing.png",
+        "description": "Very rarely, a sudden mutation can result in two small KOFFING twins becoming conjoined as a WEEZING."
     },
     {
         "id": "#111",
@@ -810,7 +920,8 @@
             "Ground",
             "Rock"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rhyhorn.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rhyhorn.png",
+        "description": "Strong, but not too bright, this POK\u00e9MON can shatter even a skyscraper with its charging TACKLES."
     },
     {
         "id": "#112",
@@ -819,55 +930,64 @@
             "Ground",
             "Rock"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rhydon.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rhydon.png",
+        "description": "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn."
     },
     {
         "id": "#113",
         "name": "Chansey",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/chansey.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/chansey.png",
+        "description": "It lays several eggs a day. The eggs are apparently rich in nutrients and extremely delicious."
     },
     {
         "id": "#114",
         "name": "Tangela",
         "type": "Grass",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tangela.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tangela.png",
+        "description": "Blue plant vines cloak the POK\u00e9MON\u2019s identity in a tangled mass. It entangles anything that gets close."
     },
     {
         "id": "#115",
         "name": "Kangaskhan",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kangaskhan.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kangaskhan.png",
+        "description": "The female raises its offspring in a pouch on its belly. It is skilled at attacking using COMET PUNCH."
     },
     {
         "id": "#116",
         "name": "Horsea",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/horsea.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/horsea.png",
+        "description": "It maintains balance using its tail, which is wound up like a coil. It may spray ink from its mouth."
     },
     {
         "id": "#117",
         "name": "Seadra",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seadra.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seadra.png",
+        "description": "Its body bristles with sharp spikes. Carelessly trying to touch it could cause fainting from the spikes."
     },
     {
         "id": "#118",
         "name": "Goldeen",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/goldeen.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/goldeen.png",
+        "description": "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots."
     },
     {
         "id": "#119",
         "name": "Seaking",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seaking.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seaking.png",
+        "description": "The horn on its head is sharp like a drill. It bores a hole in a boulder to make its nest."
     },
     {
         "id": "#120",
         "name": "Staryu",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/staryu.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/staryu.png",
+        "description": "It appears in large numbers by seashores. At night, its central core flashes with a red light."
     },
     {
         "id": "#121",
@@ -876,13 +996,15 @@
             "Water",
             "Psychic"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/starmie.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/starmie.png",
+        "description": "This POK\u00e9MON has a geometric body. Because of its body, the locals suspect that it is an alien creature."
     },
     {
         "id": "#122",
         "name": "Mr. Mime",
         "type": "Psychic",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mr-mime.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mr-mime.png",
+        "description": "This POK\u00e9MON has a geometric body. Because of its body, the locals suspect that it is an alien creature."
     },
     {
         "id": "#123",
@@ -891,7 +1013,8 @@
             "Bug",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/scyther.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/scyther.png",
+        "description": "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly."
     },
     {
         "id": "#124",
@@ -900,37 +1023,43 @@
             "Ice",
             "Psychic"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/jynx.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/jynx.png",
+        "description": "It speaks using a language that sounds human. Research is under way to determine what is being said."
     },
     {
         "id": "#125",
         "name": "Electabuzz",
         "type": "Electric",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/electabuzz.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/electabuzz.png",
+        "description": "It loves to feed on strong electricity. It occasionally appears around large power plants and so on."
     },
     {
         "id": "#126",
         "name": "Magmar",
         "type": "Fire",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magmar.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magmar.png",
+        "description": "Found near the mouth of a volcano. This fire-breather\u2019s body temperature is nearly 2,200 degrees Fahrenheit."
     },
     {
         "id": "#127",
         "name": "Pinsir",
         "type": "Bug",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pinsir.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pinsir.png",
+        "description": "Its two long pincer horns are powerful. Once they grip an enemy, they won\u2019t release until the foe is torn."
     },
     {
         "id": "#128",
         "name": "Tauros",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tauros.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tauros.png",
+        "description": "When it is about to TACKLE, it whips its body repeatedly with its three long tails."
     },
     {
         "id": "#129",
         "name": "Magikarp",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magikarp.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magikarp.png",
+        "description": "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic POK\u00e9MON in the world."
     },
     {
         "id": "#130",
@@ -939,7 +1068,8 @@
             "Water",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gyarados.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gyarados.png",
+        "description": "It has an extremely aggressive nature. The HYPER BEAM it shoots from its mouth totally incinerates all targets."
     },
     {
         "id": "#131",
@@ -948,43 +1078,50 @@
             "Water",
             "Ice"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lapras.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lapras.png",
+        "description": "Its high intelligence enables it to understand human speech. It likes to ferry people on its back."
     },
     {
         "id": "#132",
         "name": "Ditto",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ditto.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ditto.png",
+        "description": "It can freely recombine its own cellular structure to transform into other life-forms."
     },
     {
         "id": "#133",
         "name": "Eevee",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/eevee.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/eevee.png",
+        "description": "An extremely rare POK\u00e9MON that may evolve in a number of different ways depending on stimuli."
     },
     {
         "id": "#134",
         "name": "Vaporeon",
         "type": "Water",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vaporeon.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vaporeon.png",
+        "description": "Its body\u2019s cellular structure is similar to the molecular composition of water. It can melt invisibly in water."
     },
     {
         "id": "#135",
         "name": "Jolteon",
         "type": "Electric",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/jolteon.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/jolteon.png",
+        "description": "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes."
     },
     {
         "id": "#136",
         "name": "Flareon",
         "type": "Fire",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/flareon.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/flareon.png",
+        "description": "It has a flame bag inside its body. After inhaling deeply, it blows out flames of nearly 3,100 degrees Fahrenheit."
     },
     {
         "id": "#137",
         "name": "Porygon",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/porygon.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/porygon.png",
+        "description": "Using the most advanced technologies, scientists finally succeeded in making the first artificial POK\u00e9MON."
     },
     {
         "id": "#138",
@@ -993,7 +1130,8 @@
             "Rock",
             "Water"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/omanyte.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/omanyte.png",
+        "description": "A prehistoric POK\u00e9MON that lived in the primordial sea, it swims by twisting its 10 tentacles about."
     },
     {
         "id": "#139",
@@ -1002,7 +1140,8 @@
             "Rock",
             "Water"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/omastar.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/omastar.png",
+        "description": "Its tentacles are highly developed as if they are hands and feet. As soon as it ensnares prey, it bites."
     },
     {
         "id": "#140",
@@ -1011,7 +1150,8 @@
             "Rock",
             "Water"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kabuto.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kabuto.png",
+        "description": "This POK\u00e9MON was regenerated from the fossil of an ancient creature. It protects itself with a hard shell."
     },
     {
         "id": "#141",
@@ -1020,7 +1160,8 @@
             "Rock",
             "Water"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kabutops.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kabutops.png",
+        "description": "It swims freely through water. It catches prey with its scythe-like arms and drains the victim\u2019s fluids."
     },
     {
         "id": "#142",
@@ -1029,13 +1170,15 @@
             "Rock",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/aerodactyl.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/aerodactyl.png",
+        "description": "It was regenerated from a dinosaur\u2019s genetic matter that was found in amber. It flies with high-pitched cries."
     },
     {
         "id": "#143",
         "name": "Snorlax",
         "type": "Normal",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/snorlax.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/snorlax.png",
+        "description": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
     },
     {
         "id": "#144",
@@ -1044,7 +1187,8 @@
             "Ice",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/articuno.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/articuno.png",
+        "description": "One of the legendary bird POK\u00e9MON. With its long tail trailing behind, its flying form is magnificent."
     },
     {
         "id": "#145",
@@ -1053,7 +1197,8 @@
             "Electric",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/zapdos.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/zapdos.png",
+        "description": "One of the legendary bird POK\u00e9MON. While it is flying, it makes crackling and snapping sounds."
     },
     {
         "id": "#146",
@@ -1062,19 +1207,22 @@
             "Fire",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/moltres.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/moltres.png",
+        "description": "One of the legendary bird POK\u00e9MON. Those seeing it are overwhelmed by its orange wings that seem to be on fire."
     },
     {
         "id": "#147",
         "name": "Dratini",
         "type": "Dragon",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dratini.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dratini.png",
+        "description": "Even the young can exceed 6.5 feet in length. It grows larger by repeatedly shedding skin."
     },
     {
         "id": "#148",
         "name": "Dragonair",
         "type": "Dragon",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dragonair.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dragonair.png",
+        "description": "It is said to live in seas and lakes. Even though it has no wings, it has been seen flying occasionally."
     },
     {
         "id": "#149",
@@ -1083,18 +1231,21 @@
             "Dragon",
             "Flying"
         ],
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dragonite.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dragonite.png",
+        "description": "It can fly in spite of its big and bulky physique. It circles the globe in just 16 hours."
     },
     {
         "id": "#150",
         "name": "Mewtwo",
         "type": "Psychic",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mewtwo.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mewtwo.png",
+        "description": "A POK\u00e9MON whose genetic code was repeatedly recombined for research. It turned vicious as a result."
     },
     {
         "id": "#151",
         "name": "Mew",
         "type": "Psychic",
-        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mew.png"
+        "img-url": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mew.png",
+        "description": "A POK\u00e9MON of South America that was thought to have been extinct. It is very intelligent and learns any move."
     }
 ]

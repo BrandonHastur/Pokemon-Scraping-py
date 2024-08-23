@@ -2,6 +2,23 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
+#! DESCARGAR IMAGENES
+def descargar_imagen(url, nombre_archivo):
+    try:
+        # Realizar la solicitud GET para obtener la imagen
+        respuesta = requests.get(url)
+        # Verificar si la solicitud fue exitosa
+        if respuesta.status_code == 200:
+            # Guardar la imagen en un archivo
+            with open(nombre_archivo, 'wb') as archivo:
+                archivo.write(respuesta.content)
+            print(f"Imagen guardada como {nombre_archivo}")
+        else:
+            print("Error al descargar la imagen. Código de estado:", respuesta.status_code)
+    except Exception as e:
+        print("Ocurrió un error:", e)
+#!
+
 #*Adquiriendo archivo de la url
 url = "https://pokemondb.net/pokedex/game/firered-leafgreen"
 urlopc = "https://pokemondb.net/pokedex/game/scarlet-violet"
@@ -9,7 +26,8 @@ web_result = requests.get(url).text
 
 #*nombrar el archivo
 default_name = url.split("/")[-1]
-name_json = input("Ingresa el nombre del archivo JSON") or (f"{default_name}.json")
+name_json = input("Ingresa el nombre del archivo JSON\n") or (default_name)
+name_json += ".json"
 
 #*Convirtiendo a documento y parseando
 doc = BeautifulSoup(web_result,"html.parser")
@@ -27,7 +45,7 @@ for htmllist in htmllists:
 
     for div in divs:
         #* Cuenta del progreso
-        count += 1; #no hace nada
+        count += 1; #contador
         print(f"{count} / {len(divs)}")
 
         #*Consiguiendo los nombres
@@ -67,16 +85,16 @@ for htmllist in htmllists:
         #debug print(num,name,types,imgs)
 
         #*Consiguiendo su descripcion en la pokedex
-        #!PARA ROJO FUEGO Y VERDE HOJA
+            #!PARA ROJO FUEGO Y VERDE HOJA
             #*Entrnado a las paginas de cada pokemon
         pokedex_url = f"https://pokemondb.net/pokedex/{name}"
         poke_result = requests.get(pokedex_url).text
         pokedoc = BeautifulSoup(poke_result,"html.parser")
-            #*Acercandonos a los datos generales por tabla
-        #debug vital_tables = pokedoc.find_all(class_ = "vitals-table")
-
-            #*Encontrando las descripciones en la pokedex (entries)
         
+            #Acercandonos a los datos generales por tabla
+        #debug vital_tables = pokedoc.find_all(class_ = "vitals-table")
+        
+            #*Encontrando las descripciones en la pokedex (entries)
         try:
             description = pokedoc.find(class_ = "igame firered").parent.parent.td.text
         except:
@@ -84,8 +102,8 @@ for htmllist in htmllists:
                 description = pokedoc.find(class_ = "igame firered").next_sibling.text
             except:
                 pass
-        # print(count)
-        # print(description)
+        #debug print(count)
+        #debug print(description)
         
         #*Agregando pokemons (valores) a la pokedex (diccionario)
         pokedex.append({
@@ -95,6 +113,10 @@ for htmllist in htmllists:
             "img-url": imgs,
             "description" : description
             })
+
+        #!DESCARGAR IMGS
+        # nombre_archivo = f"{name}.png"
+        # descargar_imagen(imgs, nombre_archivo)
 
 #* Exportar como JSON
 import json
